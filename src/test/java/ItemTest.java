@@ -13,6 +13,6 @@ class ItemTest {
 @Test
     void sell(){
     int g=6;
-    Assertions.assertEquals(5,g);
+    Assertions.assertEquals(0,g);
 }
 }
