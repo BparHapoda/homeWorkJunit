@@ -20,7 +20,7 @@ products.add(new Product(item,quantity));
      return sum;
     }
 
-    public String checkout (){
+    public double checkout (){
 
         ArrayList <Product> offer31 = new ArrayList<>();
         ArrayList <Product> offer2503100 =new ArrayList<>();
@@ -64,12 +64,36 @@ for (int i=0;i<sorted.size()-1;i++){
   sum31=sumBasket(sorted);
 }
 
+double sum2503100 =0;
+if (offer2503100.size()==2){
+          offer2503100.stream().sorted((x,y)-> {
+        if (x.getPrice() > y.getPrice()) {
+            return 1;
+        }
+        if (x.getPrice() < y.getPrice()) {
+            return -1;
+        }
+        return 0;
+    }).collect(Collectors.toList());
+          offer2503100.get(1).setPrice(offer2503100.get(1).getPrice()/2);
+}
+        if (offer2503100.size()==3){
+            offer2503100.stream().sorted((x,y)-> {
+                if (x.getPrice() > y.getPrice()) {
+                    return 1;
+                }
+                if (x.getPrice() < y.getPrice()) {
+                    return -1;
+                }
+                return 0;
+            }).collect(Collectors.toList());
+            offer2503100.get(1).setPrice(offer2503100.get(1).getPrice()/2);
+            offer2503100.get(2).setPrice(0.01);
+        }
 
-System.out.println(sumNoOffer);
-        System.out.println(sumPercent);
-        System.out.println(sum31);
 
+sum=sum31+sum2503100+sumPercent+sumNoOffer;
 
-return products.toString();
+return sum;
     }
 }

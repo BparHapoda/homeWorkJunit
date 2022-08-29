@@ -74,7 +74,7 @@ CashDesk cashDesk = new CashDesk(storage);
         cashDesk.getBasket().add(storage.getItemByBarcode(barcode6),1.0);
 
 
-        cashDesk.getBasket().checkout();
+        System.out.println("Сумма чека : "+cashDesk.getBasket().checkout());
 
 
     }

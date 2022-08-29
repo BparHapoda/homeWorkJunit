@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9dce845-e9fe-478c-aeb4-2a3434a55d0d" name="Changes" comment="begin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d9dce845-e9fe-478c-aeb4-2a3434a55d0d" name="Changes" comment="осталась одна акция">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CashDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CashDesk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Units.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CashDeskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CashDeskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.db" beforeDir="false" afterPath="$PROJECT_DIR$/storage.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661714938837</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="осталась одна акция">
+      <created>1661806186245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661806186245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +204,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin" />
+    <MESSAGE value="осталась одна акция" />
+    <option name="LAST_COMMIT_MESSAGE" value="осталась одна акция" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
