@@ -1,4 +1,5 @@
 import org.example.Item;
+
 import org.example.Offer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -14,7 +15,7 @@ public class ItemTest {
 
     private final int barcode13 [] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
     private final int barcode14 [] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,13};
-    private final ArrayList<Offer> offers = new ArrayList<>();
+    private final Offer offers= Offer.OFFER_2_50_3_100;
 
     private static final double unitPrice =0.0005;
     private static final double unitPriceNegative =-1.00;

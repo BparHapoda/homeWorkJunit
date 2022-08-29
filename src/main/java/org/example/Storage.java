@@ -71,19 +71,27 @@ public class Storage {
     }
     public int [] generateBarcode (){
         int [] barcode = new int [13];
-        if (storage.size()==0){return barcode;}
-        int code =storage.size();
+        int code;
+        if (storage.size()!=0)
+        {code =storage.size()+1;}
+        else {code =1;}
         for (int i = 0; i < barcode.length; i++) {
             barcode[i] = code % 10;
             code = code / 10;}
 
         return barcode;
     }
-public int getItemNumberByBarcode (int [] barcode){
+public Item getItemByBarcode (int [] barcode){
         for (int i=0;i<storage.size();i++){if(Arrays.equals(storage.get(i).getBarcode(), barcode))
-        {return i;}
+        {return storage.get(i);}
         }
-        return -1;
+        return null;
 }
 
+    @Override
+    public String toString() {
+        return "Storage{" +
+                "storage=" + storage +
+                '}';
+    }
 }
